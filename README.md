@@ -12,7 +12,35 @@ This is a plugin for disassembling and lifting WASM images.
 
 This plugin requires the following minimum version of Binary Ninja:
 
- * dev - 1.1.1344
+ * 2170
+
+## Installation
+
+First install the necessary Python dependencies:
+
+```
+$ pip install -r requirements.txt
+```
+
+Then clone the plugin:
+
+```
+git clone https://github.com/CarveSystems/binjawa.git
+```
+
+and link the plugin into your Binary Ninja plugin directory:
+
+### OS X
+
+```
+ln -s <clone_path>/binjawa ~/Library/Application\ Support/Binary\ Ninja/plugins/binjawa
+```
+
+### Linux
+
+```
+ln -s <clone_path>/binjawa ~/.binaryninja/plugins/binjawa
+```
 
 ## License
 
